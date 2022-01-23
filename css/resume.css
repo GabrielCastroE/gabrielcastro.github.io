@@ -1,0 +1,106 @@
+body {
+  background-color: #808080;
+}
+
+a {
+  color: #08c;
+}
+
+a:hover {
+  color: #005580;
+}
+
+h6 {
+  font-weight: 600;
+}
+
+.container {
+  background-color: #fff;
+}
+
+.header {
+  background-color: #eee;
+}
+
+.personal-details {
+  font-size: 0.9rem;
+}
+
+.external-links {
+  line-height: 1.7rem;
+}
+
+.item-title {
+  font-weight: 600;
+  color: #08c;
+}
+
+.item-subtitle {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.item-subtitle-small {
+  font-weight: 600;
+}
+
+.company-description {
+  font-size: 0.85rem;
+}
+
+.item-period {
+  background-color: #eee;
+  padding: .2rem .2rem;
+}
+
+.inner-separator {
+  border-bottom: 1px dashed #ddd;
+  margin: 10px 0 20px 0;
+}
+
+.text-footer {
+  text-align: center;
+  color: #ffffffde;
+}
+
+.text-footer a {
+  color: #a0d4ef
+}
+
+.in-print, .in-print * {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .personal-details {
+    padding-left: 6rem;
+    padding-right: 0rem;
+  }
+}
+
+@media print {
+  .no-print, .no-print * {
+    display: none !important;
+  }
+
+  .in-print, .in-print * {
+    display: block;
+  }
+
+  .personal-details {
+    padding: 0;
+  }
+
+  .shadow-sm {
+    box-shadow: none !important;
+  }
+
+  .header {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .container {
+    padding: 0 !important;
+  }
+}
